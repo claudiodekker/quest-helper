@@ -229,6 +229,7 @@ import com.questhelper.helpers.quests.tearsofguthix.TearsOfGuthix;
 import com.questhelper.helpers.quests.templeofikov.TempleOfIkov;
 import com.questhelper.helpers.quests.templeoftheeye.TempleOfTheEye;
 import com.questhelper.helpers.quests.theascentofarceuus.TheAscentOfArceuus;
+import com.questhelper.helpers.quests.thebloodmoonrises.TheBloodMoonRises;
 import com.questhelper.helpers.quests.thecorsaircurse.TheCorsairCurse;
 import com.questhelper.helpers.quests.thecurseofarrav.TheCurseOfArrav;
 import com.questhelper.helpers.quests.thedepthsofdespair.TheDepthsOfDespair;
@@ -487,6 +488,8 @@ public enum QuestHelperQuest
 	CURRENT_AFFAIRS(new CurrentAffairs(), Quest.CURRENT_AFFAIRS, QuestVarbits.QUEST_CURRENT_AFFAIRS, QuestDetails.Type.P2P, QuestDetails.Difficulty.NOVICE),
 	TROUBLED_TORTUGANS(new TroubledTortugans(), Quest.TROUBLED_TORTUGANS, QuestVarbits.QUEST_TROUBLED_TORTUGANS, QuestDetails.Type.P2P, QuestDetails.Difficulty.EXPERIENCED),
 	THE_RED_REEF(new TheRedReef(), Quest.THE_RED_REEF, QuestVarbits.QUEST_THE_RED_REEF, QuestDetails.Type.P2P, QuestDetails.Difficulty.EXPERIENCED),
+	// TODO: net.runelite.api.Quest has no THE_BLOOD_MOON_RISES yet. Swap to Quest.THE_BLOOD_MOON_RISES once RuneLite adds it.
+	THE_BLOOD_MOON_RISES(new TheBloodMoonRises(), 16414, "The Blood Moon Rises", QuestVarbits.QUEST_THE_BLOOD_MOON_RISES, QuestDetails.Type.P2P, QuestDetails.Difficulty.GRANDMASTER),
 	//Miniquests
 	ENTER_THE_ABYSS(new EnterTheAbyss(), Quest.ENTER_THE_ABYSS, QuestVarPlayer.QUEST_ENTER_THE_ABYSS, QuestDetails.Type.MINIQUEST, QuestDetails.Difficulty.MINIQUEST),
 	BEAR_YOUR_SOUL(new BearYourSoul(), Quest.BEAR_YOUR_SOUL, QuestVarbits.QUEST_BEAR_YOUR_SOUL, QuestDetails.Type.MINIQUEST, QuestDetails.Difficulty.MINIQUEST),

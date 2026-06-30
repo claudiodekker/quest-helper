@@ -1,5 +1,6 @@
 package com.questhelper.questinfo;
 
+import com.questhelper.helpers.quests.thebloodmoonrises.Rev239Gamevals;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import net.runelite.api.gameval.VarbitID;
@@ -102,6 +103,7 @@ public enum QuestVarbits
 	QUEST_SONG_OF_THE_ELVES(VarbitID.SOTE),
 	QUEST_THE_FREMENNIK_EXILES(VarbitID.VIKINGEXILE),
 	QUEST_SINS_OF_THE_FATHER(VarbitID.MYQ5),
+	QUEST_THE_BLOOD_MOON_RISES(Rev239Gamevals.VarbitID.MYQ6),
 	QUEST_A_PORCINE_OF_INTEREST(VarbitID.PORCINE),
 	QUEST_GETTING_AHEAD(VarbitID.GA),
 	QUEST_A_KINGDOM_DIVIDED(VarbitID.AKD),
